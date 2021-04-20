@@ -50,12 +50,14 @@ return
 	(
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.5\textwidth]{src}
+	\includegraphics[width=0.5\textwidth]{}
 	\captionof{figure}{caption}
 	\label{fig:fig}
 \end{figure}
 	)
 	Add_block(message)
+	sleep, 20
+	Send, {Up 3}{End}{Left}
 	return
 	
 	

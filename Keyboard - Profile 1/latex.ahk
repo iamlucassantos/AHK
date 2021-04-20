@@ -16,7 +16,7 @@ Add_block(message)
 temp := clipboardall
 clipboard := message
 SendInput, ^v
-sleep, 20
+sleep, 50
 clipboard := temp
 return
 }
@@ -50,12 +50,14 @@ return
 	(
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.5\textwidth]{src}
+	\includegraphics[width=0.5\textwidth]{}
 	\captionof{figure}{caption}
 	\label{fig:fig}
 \end{figure}
 	)
 	Add_block(message)
+	sleep, 50
+	Send, {Up 3}{End}{Left}
 	return
 	
 	
