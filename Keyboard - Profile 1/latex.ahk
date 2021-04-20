@@ -34,6 +34,17 @@ return
 	send, {Up}`t
 	return
 
+:o:bge::
+	message =
+	(
+\begin{equation}
+
+\end{equation}
+	)
+	Add_block(message)
+	send, {Up}`t
+	return
+
 :o:bgc::
 	message =
 	(
@@ -95,3 +106,28 @@ return
 	Add_block(message)
 	Send, {Up}`t{up}{Up}{up}`t
 	return
+	
+	
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; Aerospace Hotstrings
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+::a/c::aircraft
+::s/c::spacecraft
+::aoa::angle of attack
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; Personal Hotstrings
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+::@name::Lucas Vieira dos Santos
+::@e::lucas6eng@gmail.com
+::@ue::l.vieiradossantos@student.tudelft.nl
+::@uid::4833570
+:o:@sig::
+(
+Best,
+
+Lucas Vieira dos Santos
+)
